@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project</title>
+        
+        <!-- Core bootstrap CSS -->
+        
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        
+        <link rel="stylesheet"      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+                
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        
+        
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        <!-- css for this page -->
+        <style>
+            .navbar .navbar-nav {
+                display: inline-block;
+                float: none;
+                vertical-align: top;
+                }   
+
+            .navbar .navbar-collapse {
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="about.html">About</a></li>
+              
+              <!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+              -->
+              
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+            
+             <!-- Reading in the text file -->
+            
+            <div id = "end" style="display: none;"></div>
+            
+            <div id ="exit">
+            <h1 style="color:red; position: relative;
+            float: left;
+            left: 800px; top: 180px;
+            height: 80px;
+            width: 40px;">EXIT</h1>
+            </div>
+            <button id ="reset">
+               <h5>Reset</h5>
+            </button>
+            <button id ="undo">
+                <h5>Undo</h5>
+            </button>
+            <button id ="skip">
+                <h5>Skip</h5>
+            </button>
+            
+            <div id="board" style="overflow:hidden;">
+            <script src="rush.js">
+        
+           </script>
+        </div>    
+    </body>
+</html>
+
